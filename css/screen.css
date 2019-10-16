@@ -200,11 +200,53 @@ html {
   color: #2B2B2A;
 }
 
+h1 {
+  font-family: 'Long Cang', cursive;
+  font-size: 2.779em;
+  margin: 5px;
+  padding: 5px;
+}
+
 label {
   display: block;
 }
 
+p {
+  margin: 10px 5px;
+}
 /* ===== LAYOUT STYLES ====== */
+main {
+  text-align: center;
+  font-family: 'Nanum Gothic', Arial, sans-serif;
+}
+
+#submit {
+  background-color: #656565;
+  border: none;
+  color: #F1F1F1;
+  width: 150px;
+  height: 60px;
+}
+
+#input-age-verification {
+  margin: auto;
+  display: inline-block;
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+#age-verification {
+  float: left;
+  padding: 5px;
+  margin: 7px;
+  width: 15px;
+  height: 15px;
+}
+
+#input-email {
+  margin: 10px 0px;
+}
+
 
 
 /* ===== MODULAR STYLES ===== */
