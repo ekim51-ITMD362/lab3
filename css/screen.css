@@ -201,18 +201,24 @@ html {
 }
 
 h1 {
-  font-family: 'Long Cang', cursive;
+  font-family: 'Long Cang', "Lucida Calligraphy", cursive;
   font-size: 2.779em;
+  line-height:1.2em;
   margin: 5px;
   padding: 5px;
 }
 
 label {
   display: block;
+  margin: 7px 0px;
+  font-size: 1em;
+  line-height: 1.2em;
 }
 
 p {
   margin: 10px 5px;
+  font-size: 1.667em;  /* 36.674px */
+  line-height: 1.2em;
 }
 /* ===== LAYOUT STYLES ====== */
 main {
@@ -220,33 +226,40 @@ main {
   font-family: 'Nanum Gothic', Arial, sans-serif;
 }
 
-#submit {
-  background-color: #656565;
-  border: none;
-  color: #F1F1F1;
-  width: 150px;
-  height: 60px;
-}
+@media only screen and (min-width: 480px) {
+	
+  #submit {
+	background-color: #656565;
+	border: none;
+	color: #F1F1F1;
+	width: 150px;
+	height: 55px;
+	box-shadow: 10px 5px 5px black;
+  }
 
-#input-age-verification {
-  margin: auto;
-  display: inline-block;
-  width: 20%;
-  margin-bottom: 10px;
-}
+  #input-age-verification {
+	margin: auto;
+	display: block;
+	width: 20%;
+	margin-bottom: 10px;
+  }
 
-#age-verification {
-  float: left;
-  padding: 5px;
-  margin: 7px;
-  width: 15px;
-  height: 15px;
-}
+  #age-verification {
+	float: left;
+	padding: 5px;
+	margin: 7px;
+	width: 15px;
+	height: 15px;
+  }
 
-#input-email {
-  margin: 10px 0px;
+  #input-email {
+    margin: 30px 0px 20px 0px;
+  }
+  
+  input[type=email] {
+    width: 30%;
+  }
 }
-
 
 
 /* ===== MODULAR STYLES ===== */
